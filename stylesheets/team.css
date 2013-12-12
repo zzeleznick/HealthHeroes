@@ -1,0 +1,191 @@
+/* =============================================
+--------------Kira Stylesheet File -------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+/* body {
+    font:13px/1.5em 'Open Sans', sans-serif;
+    color:#525055;
+    background:#ccd1d9;
+} 
+
+ /* ===================
+-------- Boxed ------- */
+
+#wrapper {
+    width:100%;
+    background:#f5f7fa;
+}
+
+#wrapper.boxed {
+    width:960px;
+    margin:0 auto;
+}
+
+#wrapper.boxed2 {
+    width:960px;
+    margin:40px auto;
+}
+
+/* ================================================
+----------- About ---------- */
+
+.team-member {
+    margin-bottom:30px;
+    border:2px solid #ccd1d9;
+    border-radius:0 0 8px 8px;
+}
+
+.team-member .team-member-details {
+    padding:10px 15px;
+}
+
+.team-member figure  {
+    position: relative;
+    overflow:hidden;
+}
+
+.team-member figcaption {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    color:#f5f7fa;
+    padding:40% 15px 15px;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    -ms-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+    filter: alpha(opacity=0);
+    opacity:0;
+    visibility:hidden;
+    overflow:hidden;
+    margin:0;
+}
+
+.team-member h4 {
+    margin-bottom:5px;
+}
+
+.team-member h5 {
+    font-weight:500;
+    font-style:italic;
+    margin:0;
+}
+
+.team-member:hover figure > figcaption{
+    visibility:visible;
+    filter: alpha(opacity=80);
+    opacity:0.8;
+
+}
+.team-member:hover figure > figcaption .social-media {
+    position:absolute;
+    left:15px;
+    bottom:15px;
+    margin-bottom:0;
+}
+
+.team-member.team-member-circle {
+    border:none !important;
+}
+
+.team-member.team-member-circle figcaption {
+    border-radius:500px !important;
+    text-align:center;
+    padding-top:90px;
+}
+.team-member.team-member-circle .social-media {
+    text-align:center;
+}
+.team-member.team-member-circle figcaption span {
+    
+}
+
+/* ================================================
+---------- Social media icons  ---------- */
+
+.social-media li {
+    display:inline-block;
+}
+
+.social-media li a {
+    display:inline-block;
+    font-size:14px;
+    width:34px;
+    position: relative;
+    text-align:center;
+    z-index:2;
+}
+
+.social-media li a:before {
+    content:'';
+    position: absolute;
+    display:inline-block;
+    width:100%;
+    height:2px;
+    top:0;
+    left:0;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    transition:all 0.3s;
+    z-index:-1;
+}
+.social-media li a.from-bottom:before {
+    top:auto;
+    bottom:0;
+}
+
+.social-media li a.facebook:before {
+    background:#3b5998;
+}
+.social-media li a.twitter:before {
+    background:#00aced;
+}
+.social-media li a.googleplus:before {
+    background:#dd4b39;
+}
+.social-media li a.dribbble:before {
+    background:#ea4c89;
+}
+.social-media li a.linkedin:before {
+    background:#007bb6;
+}
+.social-media li a.skype:before {
+    background:#00aff0;
+}
+.social-media li a.youtube:before {
+    background:#bb0000;
+}
+.social-media li a.instagram:before {
+    background:#517fa4;
+}
+.social-media li a.flickr:before {
+    background:#ff0084;
+}
+.social-media li a.tumblr:before {
+    background:#32506d;
+}
+.social-media li a.github:before {
+    background:#222;
+}
+
+.social-media li a:hover:before {
+    height:100%;
+}
+
+/* change some styles under content and footer sections */
+#content .social-media li a,
+#footer .social-media li a   {
+    padding:15px 0;
+}
+#content .social-media li a:hover  {
+    color:#f5f7fa;
+}
+#footer .social-media li a {
+    color:#f5f7fa;
+}
