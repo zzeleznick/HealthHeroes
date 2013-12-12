@@ -6,16 +6,28 @@ html { font-size: 62.5%; }
 
 body { background: #00ad1f; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 1; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
 
+
+
+/* ================================================
+----------- About ---------- */
+
+.team-member {
+    margin-bottom:30px;
+    border:2px solid #ccd1d9;
+    border-radius:0 0 8px 8px;
+}
+
+  
 /* Links ---------------------- */
 a img { border: none; }
 
-a { color: #2ba6cb; text-decoration: none; line-height: inherit; }
+a { color:  #A3A3C2; text-decoration: none; line-height: inherit; }
 
-a:hover { color: #2795b6; }
+a:hover { color: #F0F0F5; }
 
 a:focus { color: #2795b6; }
 
-a:visited { color: #f609ec; }
+/* a:visited { color: #FF00FF; } */
 p a, p a:visited { line-height: inherit; }
 
 /* Misc ---------------------- */
