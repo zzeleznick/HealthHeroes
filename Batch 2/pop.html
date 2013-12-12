@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>        
+    <script type="text/javascript" src ="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href ="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href = "css/tile.css">
+    <link rel="stylesheet" href = "css/overlay-apple.css">
+
+
+<style>
+/* el negro version of el overlay */
+div.apple_overlay.black {
+background-image:url(css/images/transparent.png);
+color:#fff;
+}
+
+div.apple_overlay h2 {
+margin:10px 0 -9px 0;
+font-weight:bold;
+font-size:14px;
+}
+
+div.black h2 {
+color:#fff;
+}
+
+#apple {
+margin-top:10px;
+text-align:center;
+}
+
+#apple img {
+background-color:#fff;
+padding:2px;
+border:1px solid #ccc;
+margin:2px 5px;
+cursor:pointer;
+height:320px;
+width:300px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!--Navigation Bar-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="./index.html"> <img height="25" width="25" src="images/esc_logo.png"> Engineering Student Council</a>
+            <div class="nav-collapse collapse">
+            <ul class="nav">
+          <li class="">
+                  <a href="./officers.html">Officers</a>
+                </li>
+                <li class="dropdown">
+                   <a href="./student_services" class="dropdown-toggle" data-toggle="dropdown"> Student Services <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                     <li><a href="./services.html">Committees</a></li>
+                      <li><a href="./services.html">Finances</a></li>
+                      <li><a href="./services.html">Facilities</a></li>
+                      <li><a href="./services.html">Administration</a></li>
+
+                    </ul>
+                </li>
+                <li class="">
+                  <a href="./events.html">Events</a>
+                </li>
+                <li class="">
+                  <a href="./community.html">Community</a>
+                </li>
+                <li class="">
+                  <a href="./newsletter.html">Newsletter</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Body-->
+<!--Content for the frames -->
+<div class="row-fluid">
+  <div id="apple" class= "span4 officer center">
+      <img class= "officer" rel="#president" src="images/officers/president1.jpg">
+      <p> Bladfdfdfdv </p>
+  </div>
+
+  <div id="apple" class= "span4 officer">
+      <img class= "officer" rel="#ivp" src="images/officers/ivp1.jpg">
+
+  </div>
+  
+  <div id="apple" class= "span4 officer">
+      <img class= "officer"  rel="#xvp" src="images/officers/evp1.jpg">
+  </div> 
+
+
+
+</div>
+
+<div class="row-fluid">
+  <div id="apple" class="span4 officer">
+      <img rel="#junior-tres" src="images/officers/app31.jpg">
+  </div>
+  
+  <div id="apple" class= "span4 officer">
+        <img rel="#facilities" src="images/officers/fac1.jpg">
+  </div> 
+
+
+  <div id="apple" class= "span4 officer">
+          <img  rel="#app2" src="images/officers/app21.jpg">
+  </div> 
+  
+</div>
+
+
+<div class="row-fluid">
+
+
+  <div id="apple" class= "span4 officer">
+      <img rel="#senior-tres" src="images/officers/tres1.jpg">
+  </div> 
+
+  <div id="apple" class= "span4 officer">
+          <img rel="#web2" src="images/officers/web21.jpg">
+  </div>
+  
+  <div id="apple" class= "span4 officer">
+  
+          <img rel="#web3" src="images/officers/web33.jpg" height:200px width=:200px >
+  </div>
+  
+  
+  
+</div>
+
+<!-- overlayed elements -->
+<div class="apple_overlay black" id="president">
+  <img class="square" src="images/officers/president.jpg" />
+  <div class="details">
+    <h2>Pritha Hait</h2>
+    <h3>President</h3>
+    <p>
+      Chemical Engineering Class of 2014 <br>
+
+      <object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="250" height="100"><param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" /><param name="wmode" value="transparent" /><param name="FlashVars" value="id=b1516bc3f210bb8a0059ba71be0a9bfbf249a4b3&style=0" /></object>
+
+    </p>
+  </div>
+</div>
+  </div>
+
+  <div class="apple_overlay black" id="ivp">
+  <img class="square" src="images/officers/ivp.png" />
+  <div class="details">
+    <h2>Lauren Farrell</h2>
+    <i>External Vice President</i>
+    <p>
+      Mechanical Engineering Class of 2014
+    </p>
+    <p>
+    Hi! I am from a small town in NJ you’ve probably never heard of, but my family just moved to Colorado! I’m an avid runner, and I love music, the outdoors, and food. I am looking forward to being one of your leaders on ESC.  In addition, I am also Treasurer of SWE! I love supporting the College of Engineering and helping fellow students, so come talk to me if you have any questions!
+    </p>
+  </div>
+</div>
+  </div>
+
+  <div class="apple_overlay black" id="xvp">
+  <img class="square" src="images/officers/evp.jpg" />
+  <div class="details">
+    <h2>Andrew Kooker</h2>
+    <i>Internal Vice President</i>
+    <p>
+      Mechanical Engineering Class of 2014
+    </p>
+    <p>I am a third-year Mechanical Engineer originally from Westminster, Maryland. In addition to ESC, I am currently very involved with the American Society of Mechanical Engineers (ASME) and the Design Engineering Collaborative (DEC). In the past, I have had experience working with clubs across many communities including: ISPE, EWH, BMES, and the Cal Ski and Snowboard Team. I enjoy freestyle skiing, surfing, basketball, tennis, and exploring the outdoors. I am driven to learn new things and create innovative concepts and ideas; I like participating in Hackathon and Makeathon challenges to solve real-world issues with tangible solutions. I am excited for my third year at Cal, and if you see me on campus, feel free to start a conversation! </p>
+  </div>
+</div>
+  </div>
+
+<div class="apple_overlay black" id="senior-tres">
+  <img class="square" src="images/officers/tres.jpg" />
+  <div class="details">
+    <h2>Andrew Sabour</h2>
+    <i>Junior Treasurer</i>
+    <p>
+      BioEngineering Class of 2015
+    </p>
+    <p> All the ladies love me!
+    <br>
+    Email: afsabour@berkeley.edu
+    </p>
+
+  </div>
+</div>
+  </div>
+
+  <div class="apple_overlay black" id="junior-tres">
+  <img class="square" src="images/officers/app3.jpg" />
+  <div class="details">
+    <h2>Calvin Brown</h2>
+    <i>Senior Treasurer</i>
+    <p>Engineering Physics  Class of 2015
+    <p>
+    I was born in Pennsylvania, but I'm a California man now. This is my second semester in ESC and I'm excited to work with you all again! I'm a proud brother of Triangle fraternity and a member of the Society of Engineering Sciences. I love music, baseball, and especially transparency, so go ahead and contact me! Go Bears
+    </p>
+    </p>
+  </div>
+</div>
+  </div>
+
+  <div class="apple_overlay black" id="communications">
+  <img src="images/square2.png" />
+  <div class="details">
+    <h2>Person</h2>
+    <p>
+      Details
+    </p>
+  </div>
+</div>
+  </div>
+
+  <div class="apple_overlay black" id="facilities">
+  <img class="tiny" src="images/officers/fac.jpg" />
+  <div class="details">
+    <h2>Justin Lee</h2>
+    <i> Facilities Manager</i>
+    <p>Mechanical Engineering Class of 2016<p>
+    <p>
+      I am affiliated with Triangle Fraternity, FSAE, Cal SMV, AIAA, and Cal Sol. I am a hard-working individual with clear goals and ambition for my jobs. I never back away from a challenge and I am very thorough with my work. Also, I am very level-headed and am extremely easy to talk to.  I am always on top of my tasks and I respond to requests quickly. Concerning my personal background, I am from Orange County in Southern California where I attended Troy High School. My dream is to become an aerospace engineer so that I can eventually design the next generation space/aircraft that will take us to different planets. I am very easy to reach and talk to, so please feel free to contact me with any concerns or questions. 
+    </p>
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+<style type="text/css">
+.bs-example{
+  margin: 20px;
+}
+.toggle-modal {
+  position: absolute;
+  margin: 0 auto;
+  z-index: 999;
+  top: 1px
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <!-- Button HTML (to Trigger Modal) -->
+    <input type="button" class="btn btn-primary toggle-modal" data-toggle="modal" data-target="#myModal" value="Toggle Demo Modal">
+     
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal hide fade">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h3>Confirmation</h3>
+        </div>
+        <div class="modal-body">
+            <p>Do you want to save changes you made to document before closing?</p>
+            <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+
+ <div class="modal-body">
+    <p>This modal will resize itself to the same dimensions as the container class.</p>
+   <h2>Contact Us</h2>
+  
+              <style>
+              input, textarea {
+              padding: 10px;
+              border: 1px solid #E5E5E5;
+              width: 200px;
+              max-width: 400px;
+              //* refers to both the button and text field*//
+              line-height: 18px;
+              height: 50px;
+              color: #999999;
+              box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+              -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+              -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;   
+            }
+
+            input:hover, textarea:hover,
+            input:focus, textarea:focus {
+              border-color: 1px solid #C9C9C9;
+              box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+              -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+              -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px; 
+            }
+
+            .form label {
+              margin-left: 10px;
+              color: #999999;
+            }
+            </style>
+
+              <form class="form" action="mailto:berkeleyedge@gmail.com" method="post">
+                
+                <p class="name">
+                  <input type="text" class="form-control" name="name" id="name" placeholder="John Doe" required autofocus/>
+                  <!--label for="name">Name</label-->
+                </p>
+                
+                <p class="email">
+                  <input type="email" name="email" class="form-control" id="email" placeholder="john@berkeley.edu" required />
+                  <!--label for="email">Email</label -->
+                </p>
+
+                <p class="text">
+                  <textarea name="text" placeholder="Write something to us" /> </textarea>
+                </p>
+                
+                <p>
+                 <button type="submit" class="radius button">Send a Message</button>
+                </p>
+              </form>
+
+
+
+        </div>
+        <div class="modal-footer">
+            <!--a href="#" class="btn">Close</a-->
+            <a href="#" class="btn btn-primary">Save changes</a>
+        </div>
+    </div>
+</div>
+
+
+
+  </div>
+</div>
+  </div>
+
+
+  <div class="apple_overlay black" id="web2">
+  <img class="square" src="images/officers/web2.jpg"/>
+  <div class="details">
+    <h2>Alton Zheng</h2>
+    <i>Web Developer</i>
+    <p>
+      Electrical Engineering and Computer Science Class of 2015
+    </p>
+    <p> Hey all! I'm Alton Zheng. I am involved in HKN and I'm currently in Hong Kong studying abroad. My passion is to be an entrepreneur in the CS world and develop elegant and beautiful applications and software. I love puppies and longboarding. 
+
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+    <script type="text/javascript">
+$(function(){
+  $("#myModal").on('hidden', function(){
+    alert("Modal window has been completely closed.");
+  });
+});
+</script>
+<style type="text/css">
+.bs-example{
+  margin: 20px;
+}
+.toggle-modal {
+  position: absolute;
+  margin: 0 auto;
+  z-index: 999;
+  top: 1px
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <!-- Button HTML (to Trigger Modal) -->
+    <input type="button" class="btn btn-primary toggle-modal" data-toggle="modal" data-target="#myModal2" value="Toggle Demo Modal">
+     
+    <!-- Modal HTML -->
+    <div id="myModal2" class="modal hide fade">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h3>Confirmation</h3>
+        </div>
+        <div class="modal-body">
+            <p>Do you want to save changes you made to document before closing?</p>
+            <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+        </div>
+        <div class="modal-footer">
+            <!--a href="#" class="btn">Close</a-->
+            <a href="#" class="btn btn-primary">Save changes</a>
+        </div>
+    </div>
+</div>
+
+
+  </div>
+</div>
+  </div>
+
+ <div class="apple_overlay black" id="web3">
+  <img class="square" src="images/officers/web33.jpg"/>
+    <h2>Zach Zeleznick</h2>
+    <i>Web Developer</i>
+    <p>
+      Bioengineering Class of 2016
+    </p>
+    <p> I'm new here.
+    <script type="text/javascript">
+$(function () {
+    $(".popover-examples a").popover({
+        placement : 'top'
+    });
+});
+</script>
+<style type="text/css">
+  .bs-example{
+      margin: 5px 5px;
+      cursor: pointer;
+      color: black;
+    }
+</style>
+<div class="bs-example"> 
+    <ul class="popover-examples inline">
+        <li><a class="btn" data-toggle="popover" title="Popover title" data-content="Default popover">Popover</a></li>
+        <li><a class="btn btn-primary" data-toggle="popover" title="Popover title" data-content="Another popover">Another popover</a></li>
+        <li><a class="btn btn-success" data-toggle="popover" title="Popover title" data-content="A much longer popover to demonstrate the max-width of the Bootstrp popover.">Large popover</a></li>
+        <li><a class="btn btn-warning" data-toggle="popover" title="Popover title" 
+        data-content="The last tip!">Last popover</a></li>
+    </ul>
+</div>
+  </div>
+</div>
+
+
+  <div class="apple_overlay black" id="app2">
+  <img class="square" src="images/officers/app2.jpg"/>
+  <div class="details">
+    <h2>Brad Windsor</h2>
+    <i>Communications Officer</i>
+    <p>
+      Greetings! I am a third year chemical engineer from Fremont, CA, with a minor in applied math.  In addition to the ESC, I am very involved with the American Institute of Chemical Engineers. I spend much of my free time swing dancing.  Things which I never turn down include wrestling, frisbee, the board game Pente, and vanilla flavored tea.  If you ever see me around campus please introduce yourself.  I love meeting new people.  
+    </p>
+  </div>
+</div>
+  <br>
+
+
+
+
+
+
+<!--Footer-->
+
+      <footer>
+        <div class="container">
+        <div class="row-fluid">
+         
+          <p style="font-size:14px"> <font color="black"> Copyright &copy; 2013 </font>
+             <a href="http://www.edgeinterns.com/biography.html" target="_blank">   <span style="cursor:pointer"> EdgeInterns </span> </a> 
+            <span style="padding: 0 1px">&nbsp;</span>
+            <font color="black">  All rights reserved.</font>  </p>
+
+            </div>
+            </div>
+      </footer>  
+
+ 
+
+<script>
+    $("#apple img[rel]").overlay({effect: 'apple'});
+</script>
+
+</body>
+</html>

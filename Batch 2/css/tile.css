@@ -1,0 +1,22 @@
+.club-tiles {
+	position: relative;
+	height: 200px;
+	width:200px;
+
+}
+
+.club-tiles img{
+
+  position:absolute;
+  left:0;
+  height: 200px;
+  width:200px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.club-tiles img.top:hover {
+  opacity:0;
+}
